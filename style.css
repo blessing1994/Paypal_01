@@ -136,21 +136,20 @@
     }
     aside{
         margin: 0;
-        padding: 0;
+        width: 100%;
     }
+  
     .aside1 img{
-        width: 60%;
+        width: 80%;
         padding-top: 5%;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 16%;
     }
     .aside2 h1{
-        width: 30%;
+        width: 100%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
         text-align: center;
-        padding-left: 40%;
-        padding-right: 30%;
         padding-top: 60px;
         font-size: 30px;
     }
@@ -180,6 +179,9 @@
     }
     .third{
         background-color: #f5f7fa;;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .third1 img{
         width:45%;
@@ -192,8 +194,8 @@
         width: 50%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
-        padding-left: 30%;
-        padding-right: 30%;
+        padding-left: 20%;
+        padding-right: 20%;
         padding-top: 10px;
         font-size: 30px;
     }
@@ -215,6 +217,9 @@
         font-weight:lighter;
         font-size:large;
     }
+    .fourth{
+        width:100%;
+    }
 
     .fourth1 img{
         width:45%;
@@ -227,8 +232,8 @@
         width: 60%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 20%;
+        padding-right: 20%;
         padding-top: 10px;
         font-size: 30px;
     }
@@ -240,8 +245,34 @@
         color:rgb(78, 72, 72);
     }
     .fourth4 a{
-        color: #56CCFE;;
-        font-size: 20px;
         text-decoration: none;
+        color: #0070ba;
+        padding-left: 40%;
+        padding-right: 35%;
+        font-weight:lighter;
+        font-size:large;
     }
+    .fifth{
+        background-color: #f5f7fa;
+        width: 100%;
+    }
+    .fifth1 img{
+        width: 65%;
+        padding-top: 5%;
+        padding-left: 20%;
+    }
+    .fifth2{
+        margin: 0;
+        padding-left:45%;
+        padding-right:45%;
+        padding-top: 5%;
+    }
+    .fifth2 button{
+        border-radius: 35px;
+        padding: 20px 15px;
+        background-color: #A96717;
+        border: none;
+        color: white;
+    }
+
 }
