@@ -116,10 +116,15 @@
     .section4 img{
         width: 85%;
     }
+    .section5{
+        padding-top:8%;
+        padding-left: 25%;
+        padding-bottom: 8%;
+    }
     .section5 p{
-        max-width: 100%; 
+        display: inline;
+        width: 40%; 
         margin:0;
-        padding:5% 30% 5% 30%;
         color: white;
         font-weight: lighter;
     }
@@ -128,14 +133,16 @@
     }
     .section6{
         margin: 0;
-        padding:0% 35% 1% 35%;
+        padding:0% 35% 10% 35%;
     }
     .section6 button{
         background-color: white;
-        padding: 10px 20px;
+        padding-top:10px;
+        padding-bottom: 10px;
         border-radius:20px;
         border: none;
         color: #142c8e;
+        width: 100%;
     }
     aside{
         margin: 0;
