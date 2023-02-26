@@ -195,21 +195,22 @@
         padding: 0;
     }
     .third1 img{
-        width:50%;
+        width:65%;
         margin:0;
-        padding-left: 30%;
+        padding-left: 20%;
         padding-top: 5%;
     }
     .third2 h1{
-        width: 50%;
+        width: 80%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
-        padding-left: 30%;
-        padding-right: 20%;
+        padding-left: 20%;
+        padding-right: 0%;
         padding-top: 10px;
         font-size: 30px;
     }
     .third3 p{
+        line-height: 1.5rem;
         text-align: center;
         padding-left: 6%;
         padding-bottom: 3%;
@@ -222,8 +223,8 @@
     .third4 a{
         text-decoration: none;
         color: #0070ba;
-        padding-left: 40%;
-        padding-right: 35%;
+        padding-left: 35%;
+        padding-right: 30%;
         font-weight:lighter;
         font-size:large;
     }
@@ -232,16 +233,17 @@
     }
 
     .fourth1 img{
-        width:45%;
+        width:65%;
         margin:0;
-        padding-left: 30%;
+        padding-left: 20%;
         padding-top: 5%;
+        
     }
     .fourth2 h1{
-        width: 70%;
+        width: 90%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
-        padding-left: 20%;
+        padding-left: 10%;
         padding-top: 10px;
         font-size: 30px;
     }
@@ -258,7 +260,7 @@
     .fourth4 a{
         text-decoration: none;
         color: #0070ba;
-        padding-left: 40%;
+        padding-left: 35%;
         padding-right: 35%;
         font-weight:lighter;
         font-size:large;
@@ -321,7 +323,7 @@
 
 
 
-@media (min-width:751px) {
+@media (min-width:750px) {
     body{
         margin: 0px;
         padding: 0;
