@@ -37,7 +37,7 @@
         display: flex;
         float: right;
         width: 25%;
-        padding-left: 1%;
+        padding-left: 3%;
         padding-right: 5%;
 
     }
@@ -324,6 +324,29 @@
         text-decoration: none;
         padding-left: 43%;
     }
+    .section60{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .section61{
+        padding-left:5%;
+        padding-right: 5%;
+        margin: 0;
+        text-align: center;
+        font-weight: lighter;
+        color:rgb(78, 72, 72);
+        font-size: 10px;
+       
+    }
+    .section62{
+        padding-left: 10%;
+    }
+    .section62 img{
+        padding: 7%;
+
+
+    }
 
 }
 
@@ -359,20 +382,20 @@
     .header1{
         float: left;
         width: 20%;
-        padding-left: 20px;
-        padding-right: 60px;
+        padding-left: 5%;
+       
     }
     .header2{
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 25%;
+        padding-right: 30%;
         float:left;
         width: 5%;
     }
     .header3{
         float: right;
         width: 20%;
-        padding-left: 150px;
-        padding-right: 0px;
+        
+
         margin-right: 0;
     }
     .header_right{
@@ -490,6 +513,29 @@
         border: none;
         color: #142c8e;
     }
+    .section60{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .section61{
+        padding-left:5%;
+        padding-right: 5%;
+        margin: 0;
+        text-align: center;
+        font-weight: lighter;
+        color:rgb(78, 72, 72);
+        font-size: 20px;
+       
+    }
+    .section62{
+        padding-left: 10%;
+    }
+    .section62 img{
+        padding: 7%;
+
+
+    }
     aside{
         margin: 0;
         width: 100%;
@@ -536,7 +582,7 @@
         line-height: 150%;
     }
     .third{
-        background-color: #f5f7fa;;
+        background-color: #f5f7fa;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -664,6 +710,9 @@
 
 }
 @media (min-width:1050px) {
+    section{
+        padding-left: 10%;
+    }
     .section1 h1{
         padding-top: 10%;
     }
@@ -678,23 +727,45 @@
         display: none;
     }
     .section21 img{
-        width:35%;
+        width:30%;
+        float: left;
+        padding-right: 10%;
     }
     .section22{
-        float: right;
+            line-height: 2rem; 
+        
         color: white;
     }
-    .section22 ol{
-        counter-reset:0;
-    }
-    .section22 li::before{
-        counter-increment: 1;
-    }
+   
     .section3{
         padding-top: 5%;
+        display: inline-block;
     }
     .section4 img{
-        width: 40%;
+        width: 30%;
+    }
+    .section60{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .section61{
+        padding-left:5%;
+        padding-right: 5%;
+        margin: 0;
+        text-align: center;
+        font-weight: lighter;
+        color:rgb(78, 72, 72);
+        font-size: 20px;
+       
+    }
+    .section62{
+        padding-left: 5%;
+    }
+    .section62 img{
+        padding: 2%;
+
+
     }
     
     
@@ -705,6 +776,7 @@
     header{
         display: none;
     }
+   
     .header_hidden{
         display:inline-block;
         padding-top: 1%;
@@ -741,24 +813,150 @@
         margin-right: 2%;
         font-family:arial;
         font-size:.75rem;
-        
+      
 
        
+    }
+    section{
+        padding-left: 10%;
+    }
+    .section1 h1{
+        padding-top: 10%;
+    }
+    .section22{
+        line-height: 2rem; 
+    }
+    .section3{
+        padding-top: 10%;
     }
     .hlogin a{
         text-decoration: none;
     }
     .hsignup button{
         border-radius: 20px;
-            padding: 10px 15px 10px 15px;
-            border-width: 1px;
-            background-color:  #0070ba;
-            color: white;
-            border: none;
-            font-family: arial;
-            font-size:.75rem;
+        padding: 10px 15px 10px 15px;
+        border-width: 1px;
+        background-color:  #0070ba;
+        color: white;
+        border: none;
+        font-family: arial;
+        font-size:.75rem;
     }
     .hlist ul li .fa{
         padding-left: 10px;
+    }
+}
+@media (min-width:1150px){
+    .aside1 img{
+        width: 30%;
+        padding-top: 30px;
+        padding-left:0;
+        padding-right:10%;
+        
+    }
+   
+    .third1 img{
+        width: 20%;
+   
+        padding-top: 2%;
+    }
+    .third2 h1{
+        padding-top: 5%;
+        padding-right: 0;
+        font-size: 40px;
+        margin: 0;
+        width: 90%;
+      
+    }
+    .third3 p{
+        color:rgb(78, 72, 72);
+        margin: 0;
+        padding-top: 3%;
+        width:90%;
+        line-height: 150%;
+    }
+    .third4{
+        padding-top: 2%;
+    }
+    .fourth{
+        padding: 0;
+        width:100%;
+       
+        padding-bottom: 5%;
+    }
+
+    .fourth1 img{
+        padding-top: 0;
+        width:20%;
+        margin:0;
+        float:right;
+        padding-right: 20%;
+    }
+    
+    .section1 h1{
+        width: 60%;
+        font-size: 80px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    
+    .section21 img{
+        padding-left: 0%;  
+        padding-right: 10%;
+
+    }
+    .section22{
+        line-height: 2rem; 
+
+      
+    }
+    .section4 img{
+        padding-left: 10%;
+        width: 35%;
+        
+    }
+    .fifth{
+        margin: 0;
+        padding-top: 5%;
+    }
+    .fifth1 img{
+        width:30%;
+        padding-top: 0;
+       
+    }
+    .fifth3 h1{
+        padding: 0;
+    }
+    .fifth4{
+        padding-left: 5%;
+    }
+    
+    .fifth5 a{
+        
+        padding-left: 10%;
+    }
+    .section60{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .section61{
+        padding-left:5%;
+        padding-right: 5%;
+        margin: 0;
+        text-align: center;
+        font-weight: lighter;
+        color:rgb(78, 72, 72);
+        font-size: 20px;
+       
+    }
+    .section62{
+        padding-left: 20%;
+    }
+    .section62 img{
+        padding: 2%;
+
+
     }
 }
