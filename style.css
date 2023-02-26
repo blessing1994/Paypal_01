@@ -1,9 +1,14 @@
 
 @media (max-width:750px) {
+    html{
+        margin: 0;
+        padding: 0;
+    }
     body{
         margin: 0px;
         padding: 0;
         font-family: Arial, Helvetica, sans-serif;
+        
     }
     .header_hidden{
         display: none;
@@ -13,42 +18,43 @@
         overflow: hidden;
         display: flex;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
     .header1{
         display: flex;
         float: left;
         width: 35%;
-        padding-left: 30px;
-        padding-right: 50px;
+        padding-left: 5%;
+        
     }
     .header2{
-        padding-left: 50px;
-        padding-right: 70px;
+        padding-left: 8%;
+        padding-right: 10%;
         float:left;
-        width: 5%;
+       
     }
     .header3{
-        display: inline;
+        display: flex;
         float: right;
-        width: 40%;
-        padding-right: 0px;
-        padding-left: 40px;
-        margin: 0;
+        width: 25%;
+        padding-left: 1%;
+        padding-right: 5%;
+
     }
     
     
     .header_right{
-        border-radius: 25px;
-        padding: 10px 20px 10px 20px;
-        border-width: 1px;
-        border-color: rgb(62, 62, 238);
+        border-radius: 40px;
+        padding: 5px 25px 5px 25px;
         background-color: white;
-        color: #142c8e;
-        margin-left: 30%;
+        border-color: rgb(62, 62, 238);
+        border-width: 1px;
     }
     
     .header_right a{
         text-decoration: none;
+        color: #142c8e;
+        
     }
     .header_left .fa{
         padding-right: 10px;
@@ -60,28 +66,27 @@
         color:#142c8e;
         border: 1px solid #142c8e;
         cursor: pointer;
-        padding: 10px 15px 10px 15px;
-        border-radius: 20px;
+        padding: 1px 20px 1px 20px;
+        border-radius: 40px;
     }
-    .dropdown{
-       display: inline-block;
-    }
-    
     
     section{
-        display: block;
+        
         background-color: #142c8e;
-        width: 100%;
+       
+        padding: 0;
         padding-left: 30px;
         margin: 0;
+
     }
     .section1 h1{
-        max-width: 100%;
+        width: 90%;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 100;
         margin: 0;
+        padding-left: 0;
         padding-top: 20px;
         padding-bottom: 25px;
     }
@@ -118,7 +123,7 @@
     }
     .section5{
         padding-top:8%;
-        padding-left: 25%;
+        padding-left: 15%;
         padding-bottom: 8%;
     }
     .section5 p{
@@ -133,51 +138,60 @@
     }
     .section6{
         margin: 0;
-        padding:0% 35% 10% 35%;
+        width: 45%;
+        padding-left: 25%;
+        padding-bottom: 10%;
     }
     .section6 button{
         background-color: white;
-        padding-top:10px;
-        padding-bottom: 10px;
-        border-radius:20px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-radius:30px;
         border: none;
         color: #142c8e;
-        width: 100%;
+
     }
     aside{
+        padding: 0;
         margin: 0;
         width: 100%;
+        overflow: hidden;
     }
   
     .aside1 img{
         width: 80%;
         padding-top: 5%;
         padding-left: 10%;
-        padding-right: 16%;
+    }
+    .aside2{
+        width: 50%;
+        padding-left: 25%;
     }
     .aside2 h1{
-        width: 100%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
         text-align: center;
         padding-top: 60px;
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .aside3{
+        width: 85%;
+        padding-left: 10%;
     }
     .aside3 p{
         color:rgb(78, 72, 72);
-        padding-left: 10%;
-        padding-right: 10%;
         text-align: center;
     }
     .aside4{
         padding-top: 20px;
+        width: 40%;
+        padding-left: 35%;
     }
     .aside4 a{
         text-decoration: none;
         color: #0070ba;
-        padding-left: 42%;
-        padding-right: 30%;
-        padding-top: 80px;
         font-weight:lighter;
         font-size:large;
     }
@@ -193,6 +207,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        overflow: hidden;
     }
     .third1 img{
         width:65%;
@@ -200,14 +215,16 @@
         padding-left: 20%;
         padding-top: 5%;
     }
-    .third2 h1{
-        width: 80%;
-        font-weight: lighter;
-        color:rgb(78, 72, 72);
+    .third2{
+        width:80%;
         padding-left: 20%;
         padding-right: 0%;
         padding-top: 10px;
-        font-size: 30px;
+    }
+    .third2 h1{
+        font-weight: lighter;
+        color:rgb(78, 72, 72);
+        font-size: 20px;
     }
     .third3 p{
         line-height: 1.5rem;
@@ -218,13 +235,12 @@
         color:rgb(78, 72, 72);
     }
     .third4{
-       padding-bottom: 5%;;
+       padding-bottom: 5%;
+       padding-left: 30%;
     }
     .third4 a{
         text-decoration: none;
         color: #0070ba;
-        padding-left: 35%;
-        padding-right: 30%;
         font-weight:lighter;
         font-size:large;
     }
@@ -239,13 +255,16 @@
         padding-top: 5%;
         
     }
+    .fourth2{
+        margin: 0;
+        width: 80%; 
+        padding-top: 10px;
+        padding-left: 15%;
+    }
     .fourth2 h1{
-        width: 90%;
         font-weight: lighter;
         color:rgb(78, 72, 72);
-        padding-left: 10%;
-        padding-top: 10px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .fourth3 p{
         text-align: center;
@@ -256,12 +275,11 @@
     }
     .fourth4{
         padding-bottom: 5%;
+        padding-left: 30%;
     }
     .fourth4 a{
         text-decoration: none;
         color: #0070ba;
-        padding-left: 35%;
-        padding-right: 35%;
         font-weight:lighter;
         font-size:large;
     }
